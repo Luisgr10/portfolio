@@ -10,7 +10,7 @@ const Navbar = () => {
           <Logo size={170} />
         </Link>
         <ul className="flex gap-6 text-dark font-medium">
-          <li><Link to="/" className="hover:text-primary transition-colors">Sobre mí</Link></li>
+          <li><a href="#about" className="hover:text-primary transition-colors">Sobre mí</a></li>
           <li><a href="#projects" className="hover:text-primary transition-colors">Proyectos</a></li>
           <li><Link to="/articulos" className="hover:text-primary transition-colors">Artículos</Link></li>
           <li><a href="#contact" className="hover:text-primary transition-colors">Contacto</a></li>

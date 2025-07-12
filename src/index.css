@@ -8,6 +8,10 @@ body {
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-primary: #C01229;
   --color-secondary: #1E3F66;
