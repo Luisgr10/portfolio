@@ -6,9 +6,9 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="min-h-[70vh] flex items-center justify-center py-16 px-4 bg-light"
+      className="min-h-[70vh] flex items-center justify-center py-16 px-4 relative overflow-hidden"
     >
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-20 max-w-6xl w-full">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-20 max-w-6xl w-full relative z-10">
         {/* Texto y botón */}
         <div className="flex-1 flex flex-col items-center md:items-start justify-center text-center md:text-left">
           <h1 className="text-3xl md:text-5xl font-bold text-primary mb-4">Sobre mí</h1>
@@ -27,12 +27,12 @@ const About: React.FC = () => {
         {/* Foto de perfil con fondo decorativo y animación */}
         <div className="flex flex-col items-center flex-shrink-0 mb-8 md:mb-0">
           <div className="relative flex items-center justify-center">
-            <div className="absolute w-72 h-72 md:w-[26rem] md:h-[26rem] bg-accent/30 rounded-lg shadow-lg animate-fade-in" />
+            {/* Imagen de perfil sin fondo blanco, solo sombra */}
             <img
               src={profileImage}
               alt="Luisgr - Programador Full Stack"
               className="w-64 h-64 md:w-96 md:h-96 rounded-lg object-cover shadow-xl z-10 animate-fade-in"
-              style={{ animationDelay: '0.2s' }}
+              style={{ animationDelay: '0.2s', background: 'transparent' }}
             />
           </div>
         </div>
