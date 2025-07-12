@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { fetchLinkPreview } from '../services/linkPreview';
-import ArticleCard from './ArticleCard';
-import type { Article } from './ArticleCard';
+import ArticleCard from '../components/ArticleCard';
+import type { Article } from '../components/ArticleCard';
 import { articleUrls } from '../data/articles';
 
 const initialArticles: Article[] = articleUrls.map(url => ({ url }));
 
-const Articles: React.FC = () => {
+const ArticlesPage: React.FC = () => {
   const [articles, setArticles] = useState<Article[]>(initialArticles);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Articles: React.FC = () => {
   );
 };
 
-export default Articles; 
+export default ArticlesPage; 
