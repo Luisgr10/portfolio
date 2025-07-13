@@ -66,7 +66,7 @@ const Projects = () => {
       <h2 className="text-3xl font-bold text-primary mb-8 text-center">Proyectos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {projects.map((project, idx) => (
-          <div key={idx} className="bg-[#264653] rounded-xl shadow flex flex-col hover:scale-105 transition-transform duration-300 overflow-hidden">
+          <div key={idx} className="bg-[#1E3F66] rounded-xl shadow flex flex-col hover:scale-105 transition-transform duration-300 overflow-hidden">
             {project.image && (
               <img src={project.image} alt={project.title + ' logo'} className="w-full h-40 object-cover object-top rounded-t-xl" />
             )}
@@ -82,8 +82,8 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-4 mt-2">
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-secondary transition-colors">GitHub</a>
-                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-secondary transition-colors">Demo</a>
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">GitHub</a>
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">Demo</a>
               </div>
             </div>
           </div>
