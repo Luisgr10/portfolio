@@ -8,9 +8,14 @@ import ArticlesPage from './pages/ArticlesPage';
 function App() {
   return (
     <>
-      {/* Fondo con desenfoque global */}
-      <div className="fixed inset-0 w-full h-full pointer-events-none z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/20 via-white/80 to-indigo-50/20 backdrop-blur-sm"></div>
+      {/* Fondo con desenfoque global solo en los extremos */}
+      <div className="fixed inset-0 w-full h-full pointer-events-none z-0 flex">
+        {/* Fondo lateral izquierdo */}
+        <div className="w-[18vw] h-full bg-gradient-to-br from-blue-50/40 via-white/0 to-indigo-50/0 backdrop-blur-[4px]" />
+        {/* Centro vacío para el contenido */}
+        <div className="flex-1 h-full" />
+        {/* Fondo lateral derecho */}
+        <div className="w-[18vw] h-full bg-gradient-to-tl from-indigo-50/40 via-white/0 to-blue-50/0 backdrop-blur-[4px]" />
         <svg
           width="100%"
           height="100%"

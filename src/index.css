@@ -8,7 +8,6 @@ body {
   font-weight: 400;
   background: inherit;
   color: inherit;
-  backdrop-filter: blur(4px);
 }
 
 html {
