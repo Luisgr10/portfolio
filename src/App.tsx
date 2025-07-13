@@ -8,8 +8,9 @@ import ArticlesPage from './pages/ArticlesPage';
 function App() {
   return (
     <>
-      {/* Fondo decorativo global */}
+      {/* Fondo con desenfoque global */}
       <div className="fixed inset-0 w-full h-full pointer-events-none z-0">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/20 via-white/80 to-indigo-50/20 backdrop-blur-sm"></div>
         <svg
           width="100%"
           height="100%"
