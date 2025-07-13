@@ -9,7 +9,7 @@ const Logo = ({ size = 120 }) => (
   >
     <text fontFamily="Roboto, Arial, sans-serif" fontWeight="bold" fontSize="22" y="19">
       <tspan fill="#C01229">{'{ '}</tspan>
-      <tspan fill="#1E3F66">Luisgr</tspan>
+      <tspan fill="#1E3F66">Luijo</tspan>
       <tspan fill="#C01229">{' }'}</tspan>
     </text>
   </svg>

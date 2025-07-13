@@ -14,7 +14,7 @@ const About: React.FC = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-primary mb-4">Sobre mí</h1>
           <div className="w-16 h-1 bg-primary rounded-full mb-6 mx-auto md:mx-0" />
           <p className="text-dark/80 mb-8 leading-relaxed text-lg md:text-xl max-w-2xl">
-            Soy <span className="font-semibold text-primary">Luisgr</span>, programador Full Stack que hizo la transición desde la <span className="font-semibold text-secondary">odontología</span> hacia el desarrollo de software. Actualmente colaboro en la formación de estudiantes de programación, integrando habilidades técnicas y metodologías organizativas. Estoy en proceso de certificación como <span className="font-semibold text-secondary">Scrum Master</span>, con el objetivo de facilitar equipos de trabajo en entornos dinámicos. Experiencia en <span className="font-semibold text-primary">React</span>, <span className="font-semibold text-primary">Tailwind</span>, <span className="font-semibold text-primary">Python</span>, <span className="font-semibold text-primary">AWS</span> y rápida adaptación a nuevas tecnologías según los requerimientos del proyecto.
+            Soy <span className="font-semibold text-primary">Luijo</span>, programador Full Stack que hizo la transición desde la <span className="font-semibold text-secondary">odontología</span> hacia el desarrollo de software. Actualmente colaboro en la formación de estudiantes de programación, integrando habilidades técnicas y metodologías organizativas. Estoy en proceso de certificación como <span className="font-semibold text-secondary">Scrum Master</span>, con el objetivo de facilitar equipos de trabajo en entornos dinámicos. Experiencia en <span className="font-semibold text-primary">React</span>, <span className="font-semibold text-primary">Tailwind</span>, <span className="font-semibold text-primary">Python</span>, <span className="font-semibold text-primary">AWS</span> y rápida adaptación a nuevas tecnologías según los requerimientos del proyecto.
           </p>
           <a
             href={cvPdf}
@@ -30,7 +30,7 @@ const About: React.FC = () => {
             {/* Imagen de perfil sin fondo blanco, solo sombra */}
             <img
               src={profileImage}
-              alt="Luisgr - Programador Full Stack"
+              alt="Luijo - Programador Full Stack"
               className="w-64 h-64 md:w-96 md:h-96 rounded-lg object-cover shadow-xl z-10 animate-fade-in"
               style={{ animationDelay: '0.2s', background: 'transparent' }}
             />
