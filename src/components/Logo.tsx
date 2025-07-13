@@ -1,6 +1,3 @@
-import React from 'react';
-
-// Logotipo: {Luisgr} con corchetes en rojo y texto en azul, espaciado compacto
 const Logo = ({ size = 120 }) => (
   <svg
     width={size}

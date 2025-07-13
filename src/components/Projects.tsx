@@ -2,6 +2,7 @@ import React from 'react';
 import reactLogo from '../assets/react.svg';
 import linktreeClone from '../assets/LinktreeClone.png'
 import careerIn from '../assets/careerIn.png'
+import beatbook from '../assets/beatbook.png'
 import { FaReact, FaPython, FaNodeJs, FaVuejs } from 'react-icons/fa';
 import { SiMysql, SiMongodb, SiExpress, SiNextdotjs, SiPrisma, SiVite, SiBootstrap, SiCss3, SiTypescript, SiTailwindcss, SiFastapi, SiJavascript } from 'react-icons/si';
 
@@ -31,7 +32,7 @@ const projects = [
     tech: ['React', 'Python', 'MySQL'],
     github: 'https://github.com/Luisgr10/BeatBooK',
     demo: '#',
-    image: 'https://private-user-images.githubusercontent.com/147260322/332569004-6a16f7c2-0b19-434b-89ed-67c95e167762.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTIzNTkzNzcsIm5iZiI6MTc1MjM1OTA3NywicGF0aCI6Ii8xNDcyNjAzMjIvMzMyNTY5MDA0LTZhMTZmN2MyLTBiMTktNDM0Yi04OWVkLTY3Yzk1ZTE2Nzc2Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxMlQyMjI0MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMjcxOWJiZmMyMDI0Yjk1NjU5MmMzY2I4NzUxNjViYmRjNGQ0MmNjNzkzMDM3ZDk1MWE0ZjVmMmQ5ZjkyZmQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dUNaCyzbsH6YIRtAgEeRf5yESJ11DPGxKAxjERolzqE',
+    image: beatbook,
   },
   {
     title: 'Linktree Clone',
