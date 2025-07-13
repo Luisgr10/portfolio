@@ -32,9 +32,9 @@ const Contact = () => {
   return (
     <section id="contact" className="min-h-screen py-24 px-4 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold text-primary mb-8 text-center">Contacto</h2>
-      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div>
-          <form ref={form} onSubmit={sendEmail} className="w-full bg-white rounded-lg shadow p-6 flex flex-col gap-4">
+      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+        <div className="flex flex-col h-full justify-center">
+          <form ref={form} onSubmit={sendEmail} className="w-full bg-white rounded-xl shadow p-6 flex flex-col gap-4 h-full justify-center">
             <input type="text" name="nombre" placeholder="Nombre" required className="border border-dark/20 rounded px-3 py-2 focus:outline-none focus:border-primary" />
             <input type="email" name="email" placeholder="Email" required className="border border-dark/20 rounded px-3 py-2 focus:outline-none focus:border-primary" />
             <textarea name="mensaje" placeholder="Mensaje" required className="border border-dark/20 rounded px-3 py-2 focus:outline-none focus:border-primary" rows={4} />
@@ -43,19 +43,38 @@ const Contact = () => {
             {error && <p className="text-red-600 mt-2">Hubo un error al enviar el mensaje. Intenta de nuevo.</p>}
           </form>
         </div>
-        {/* Columna derecha: card de enlaces */}
-        <div className="flex justify-center">
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col gap-6 min-w-[260px] w-full max-w-xs">
-            <h3 className="text-xl font-semibold text-primary mb-2">Redes y contacto</h3>
-            <a href="mailto:Luisguilarter@gmail.com" className="flex items-center gap-3 text-dark hover:text-primary transition-colors text-lg">
-              <FaEnvelope className="text-primary w-6 h-6" /> Luisguilarter@gmail.com
-            </a>
-            <a href="https://github.com/Luisgr10" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-dark hover:text-primary transition-colors text-lg">
-              <FaGithub className="text-primary w-6 h-6" /> Luisgr10
-            </a>
-            <a href="https://www.linkedin.com/in/luisgr10/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-dark hover:text-primary transition-colors text-lg">
-              <FaLinkedin className="text-primary w-6 h-6" /> Luis Guilarte Rodriguez
-            </a>
+        <div className="flex flex-col h-full justify-center">
+          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col gap-6 min-w-[260px] w-full max-w-xs h-full justify-center mx-auto">
+            <h3 className="text-xl font-semibold text-primary mb-2 tracking-wide">Redes y contacto</h3>
+            <ul className="flex flex-col gap-5">
+              <li className="flex items-center gap-4">
+                <span className="bg-[#E63946] rounded-full p-2">
+                  <FaEnvelope className="text-white w-6 h-6" />
+                </span>
+                <div>
+                  <a href="mailto:Luisguilarter@gmail.com" className="text-dark font-medium hover:underline">Luisguilarter@gmail.com</a>
+                  <div className="text-xs text-dark/60">Correo</div>
+                </div>
+              </li>
+              <li className="flex items-center gap-4">
+                <span className="bg-[#E63946] rounded-full p-2">
+                  <FaGithub className="text-white w-6 h-6" />
+                </span>
+                <div>
+                  <a href="https://github.com/Luisgr10" target="_blank" rel="noopener noreferrer" className="text-dark font-medium hover:underline">Luisgr10</a>
+                  <div className="text-xs text-dark/60">GitHub</div>
+                </div>
+              </li>
+              <li className="flex items-center gap-4">
+                <span className="bg-[#E63946] rounded-full p-2">
+                  <FaLinkedin className="text-white w-6 h-6" />
+                </span>
+                <div>
+                  <a href="https://www.linkedin.com/in/luisgr10/" target="_blank" rel="noopener noreferrer" className="text-dark font-medium hover:underline">Luis Guilarte Rodriguez</a>
+                  <div className="text-xs text-dark/60">LinkedIn</div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
