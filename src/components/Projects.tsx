@@ -27,22 +27,6 @@ const techIcons: Record<string, React.ReactNode> = {
 
 const projects = [
   {
-    title: 'Beatbook',
-    description: 'Agenda cultural personalizada, donde los usuarios generan el propio contenido, compartiendo eventos, lugares y grupos de música. Nos centramos en dar visibilidad a estos tres pilares, permitiendo a los usuarios descubrir planes atractivos según sus preferencias.',
-    tech: ['React', 'Python', 'MySQL'],
-    github: 'https://github.com/Luisgr10/BeatBooK',
-    demo: '#',
-    image: beatbook,
-  },
-  {
-    title: 'Linktree Clone',
-    description: 'Este proyecto es un clon de Linktree, una plataforma que permite a los usuarios consolidar y compartir todos sus enlaces importantes en un solo lugar. Al crear una página de perfil personalizable, los usuarios pueden agregar enlaces a sus redes sociales, sitios web, blogs, y cualquier otra página en línea que deseen destacar.',
-    tech: ['React', 'Bootstrap', 'Css'],
-    github: 'https://github.com/Luisgr10/LinkTree-clone',
-    demo: 'https://sample-service-name-pfud.onrender.com/',
-    image: linktreeClone,
-  },
-  {
     title: 'Career Insights',
     description: 'plataforma diseñada para apoyar a los orientadores escolares, ofreciendo a estudiantes y familias una guía moderna, ágil y basada en datos reales del mercado laboral.',
     tech: ['React', 'TypeScript', 'Tailwindcss', 'Python', 'FastAPI'],
