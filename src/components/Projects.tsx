@@ -1,8 +1,6 @@
 import React from 'react';
 import reactLogo from '../assets/react.svg';
-import linktreeClone from '../assets/LinktreeClone.png'
 import careerIn from '../assets/careerIn.png'
-import beatbook from '../assets/beatbook.png'
 import { FaReact, FaPython, FaNodeJs, FaVuejs } from 'react-icons/fa';
 import { SiMysql, SiMongodb, SiExpress, SiNextdotjs, SiPrisma, SiVite, SiBootstrap, SiCss3, SiTypescript, SiTailwindcss, SiFastapi, SiJavascript } from 'react-icons/si';
 
