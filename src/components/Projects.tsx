@@ -29,7 +29,7 @@ const projects = [
     description: 'plataforma diseñada para apoyar a los orientadores escolares, ofreciendo a estudiantes y familias una guía moderna, ágil y basada en datos reales del mercado laboral.',
     tech: ['React', 'TypeScript', 'Tailwindcss', 'Python', 'FastAPI'],
     github: 'https://github.com/Luisgr10/Career-Insights',
-    demo: 'https://candid-crepe-646fd9.netlify.app/',
+    demo: 'https://www.careerinsights.es/',
     image: careerIn,
   },
   {
